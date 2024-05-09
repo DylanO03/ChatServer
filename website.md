@@ -14,7 +14,7 @@ message and user are split up within the `String[] params` field, and then `.spl
 on each of those so that the message and user `String[] shoudlBeString` and
 `String[] shoudlBeUser` can be extracted from the path information. All so that the 
 message `String string = shouldBeString[1]` and user `String user = shouldBeUser[1]`
-info can be appropriately added to the chatHistory string.
+info can be appropriately added to the `chatHistory` string.
 
 ![add-message use 2](./:add-message2.png)
 
@@ -24,7 +24,8 @@ result in a new message and user string by the end of `handleRequest` method. Si
 the path will be different, changing the result of `.getQuery()` in `String[] params`
 which changes the rest of the results from `.split()` for `String[] shoudlBeString`,
 `String[] shoudlBeUser`, `String string = shouldBeString[1]`, and 
-`String user = shouldBeUser[1]`.
+`String user = shouldBeUser[1]`. Then, the new message and user get added to the same
+`chatHistory` string.
 
 #### Part 2
 
