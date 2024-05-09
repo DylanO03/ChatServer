@@ -29,6 +29,9 @@ which changes the rest of the results from `.split()` for `String[] shoudlBeStri
 
 #### Part 2
 
+![ls private](./ls private.png)
+![ls public](./ls public.png)
+![ssh no pwd](./ssh no pwd.png)
 
 
 #### Part 3
